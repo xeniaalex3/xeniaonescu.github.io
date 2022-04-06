@@ -1,30 +1,44 @@
-    * {
-        margin: 0;
-        padding: 0;
-    }
-    
-    header {
-        width: 100%;
-        background-color: #B5D2ED;
-        height: 100%;
-        padding: 1em;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    
-    .menu-item {
-        display: inline-block;
-    }
-    
-    .menu-link {
-        text-decoration: none;
-        padding: 2em;
-        font-size: 1.9em;
-        color: white;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-    
-    .menu-link:hover {
-        color: #A64D79;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            width: 100vw;
+            background-color: #B5D2ED;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+        main {
+            height: 100vh;
+            width: 100vw;
+            background-color: #85baf9;
+            ;
+        }
+        
+        #left {
+            float: left;
+            width: 50%;
+            background: rgba(0, 0, 0, 0.1);
+        }
+        
+        .menu-item {
+            display: inline-block;
+            padding: 1.6em;
+        }
+        
+        .menu-link {
+            text-decoration: none;
+            padding: 2em;
+            font-size: 1.9em;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-weight: bold;
+        }
+        
+        .menu-link:hover {
+            color: #A64D79;
+        }
